@@ -1,0 +1,9 @@
+javac -cp "gs-core-1.3.jar;gs-ui-1.3.jar" *.java
+java -cp ".;gs-core-1.3.jar;gs-ui-1.3.jar" Main
+
+
+javac -cp "./libs1.3/*" *.java
+java -cp ".;./libs1.3/*" Main
+
+
+

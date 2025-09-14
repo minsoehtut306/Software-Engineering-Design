@@ -1,0 +1,62 @@
+node {
+	size: 50px;
+	text-offset: 0px, 40px;
+	text-size: 15px;
+}
+
+node.Router {
+	fill-mode: image-scaled;
+	fill-image: url('imgs/img_router.png');
+}
+
+node.Controller {
+	fill-mode: image-scaled;
+	fill-image: url('imgs/img_controller.png');
+}
+
+node.Lighting {
+	fill-mode: image-scaled;
+	fill-image: url('imgs/img_lightbulb.png');
+}
+
+node.Appliances {
+	fill-mode: image-scaled;
+	fill-image: url('imgs/img_applicance.png');
+}
+
+node.Whiteware {
+	fill-mode: image-scaled;
+	fill-image: url('imgs/img_whiteware.png');
+}
+
+edge {
+	arrow-shape: arrow; 
+ 	arrow-size: 25px, 10px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
