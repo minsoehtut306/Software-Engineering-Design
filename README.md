@@ -4,7 +4,18 @@ This repository contains all deliverables for a full **Software Engineering Desi
 
 ---
 
-## 📂 Repository Structure  
+## Project Overview 
+ 
+This repository documents the full lifecycle of the **Encost Smart Graph Project (ESGP)** — a Java-based console application that visualises smart home device connections and user interactions.  
+The system enables **role-based access control**, allowing community users and verified Encost users to load, categorise, and analyse IoT datasets using dynamic graph visualisations powered by **GraphStream**.  
+
+The app supports secure login with hashed authentication, dataset validation, automatic device categorisation, and visual graph rendering of interconnected devices.  
+Each development phase — from requirements design to final testing — was executed following structured software engineering principles using **Agile sprint planning**.  
+
+All project documentation, including reports and test plans, was prepared using **LaTeX** for professional formatting and consistent academic presentation.  
+
+---
+## Repository Structure  
 
 ### 1. **SOFTWARE DESIGN**  
 - **Specs:** `COMPX341_25A_Assignment_One_Specifications.pdf`  
@@ -37,7 +48,7 @@ This repository contains all deliverables for a full **Software Engineering Desi
 
 ---
 
-## 🛠️ Languages & Tools  
+## Languages & Tools  
 - **Java** (core implementation & tests)  
 - **JUnit** (testing framework)  
 - **Batch scripts** (pipeline automation)  
@@ -45,7 +56,7 @@ This repository contains all deliverables for a full **Software Engineering Desi
 
 ---
 
-## 🚀 How to Run  
+## How to Run  
 1. Open the project in **IntelliJ IDEA / Eclipse / VS Code** with Java 11+.  
 2. Add `gs-core-2.0.jar`, `gs-ui-swing-2.0.jar`, and `junit-platform-console-standalone.jar` to the project libraries.  
 3. Compile sources from the `Main/` folder.  
@@ -65,3 +76,5 @@ It is published here solely for educational and portfolio purposes, to showcase 
 
 All code presented is my own work. Course-specific materials such as assignment descriptions or test data are not included to respect university policies.  
 
+## Academic Integrity
+Portfolio-only; not intended for reuse in coursework. Removal on request.
